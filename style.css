@@ -77,11 +77,27 @@ main{
 }
 
 .kiri article{
-    padding: 2rem;
-    width: 20rem;
+    padding: 3rem;
+    width: 35rem;
     text-align: center;
+    border: 1px solid black;
+    margin: 2rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 3px;
+}
+
+.layanan ul{
+    list-style-type: circle;
+    text-align: left;
 }
 
 aside{
     width: 20%;
+}
+
+footer{
+    height: 100%;
+    padding: 2rem;
+    color: white;
+    background-color: rgb(16, 87, 10);
 }
