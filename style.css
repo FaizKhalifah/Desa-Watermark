@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,500&family=Inter&family=Poppins:wght@500&family=Quicksand:wght@400;500;700&family=Roboto&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.coverAtas{
+    background-color: rgb(16, 87, 10);
+    padding: 1.5rem;
+}
+
+.judul{
+    width: 100%;
+    text-align: center;
+    padding: 5rem;
+    color: rgb(255, 255, 255);
+    background-image: url('Images/Foto\ Desa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.judul h1{
+    font-family: 'Caveat Brush';
+    font-size:5rem;
+}
+
+nav{
+    background-color: rgb(16, 87, 10);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li{
+    padding: 1rem 2rem;
+    list-style: none;
+
+}
+
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    padding: 0.5rem;
+}
+
+nav ul a:hover{
+    background-color: white;
+    color: rgb(16, 87, 10);
+}
+
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.kiri{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kiri article{
+    padding: 2rem;
+    width: 20rem;
+    text-align: center;
+}
+
+aside{
+    width: 20%;
+}
