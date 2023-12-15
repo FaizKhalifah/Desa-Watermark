@@ -113,3 +113,48 @@ footer{
     background-color: rgb(16, 87, 10);
 
 }
+
+@media only screen and (max-width: 720px){
+
+    .coverAtas{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .judul{
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    nav{
+        width:100%;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kiri{
+        width: 100%;
+    }
+
+    .kiri article{
+        width: 90%;
+        
+    }
+
+    aside{
+        width: 90%;
+    }
+}
