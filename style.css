@@ -65,7 +65,7 @@ main{
     flex-flow: row nowrap;
     gap: 2rem;
     justify-content: center;
-    align-items: baseline;
+    align-items: flex-start;
 }
 
 .kiri{
@@ -93,6 +93,17 @@ main{
 
 aside{
     width: 20%;
+    text-align: justify;
+    padding: 1.5rem;
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 3px;
+}
+
+aside img{
+    max-width: 100%;
+    height: auto;
 }
 
 footer{
@@ -100,4 +111,5 @@ footer{
     padding: 2rem;
     color: white;
     background-color: rgb(16, 87, 10);
+
 }
